@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33927.249
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-items", "solution-items", "{7481F9FC-E8FA-4508-96E6-BE4DE4E48961}"
+	ProjectSection(SolutionItems) = preProject
+		CsvProcessor\testFile.txt = CsvProcessor\testFile.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvProcessor", "CsvProcessor\CsvProcessor.csproj", "{C3ABAC89-95A9-4F08-9F0E-4DDD9BE8F1F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberToStringConverter", "NumberToStringConverter\NumberToStringConverter.csproj", "{55CB7B5F-7CBA-4BC8-A324-4A27F7CF19EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3ABAC89-95A9-4F08-9F0E-4DDD9BE8F1F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3ABAC89-95A9-4F08-9F0E-4DDD9BE8F1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3ABAC89-95A9-4F08-9F0E-4DDD9BE8F1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3ABAC89-95A9-4F08-9F0E-4DDD9BE8F1F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55CB7B5F-7CBA-4BC8-A324-4A27F7CF19EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55CB7B5F-7CBA-4BC8-A324-4A27F7CF19EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55CB7B5F-7CBA-4BC8-A324-4A27F7CF19EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55CB7B5F-7CBA-4BC8-A324-4A27F7CF19EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0225229F-6359-4BF5-90CE-AA7315903A74}
+	EndGlobalSection
+EndGlobal
