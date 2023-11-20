@@ -10,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSingleton<IFileProcessorRepository, FileProcessorRepository>();
 builder.Services.AddScoped<IFileProcessorService, FileProcessorServiceService>();
 builder.Services.AddScoped<IApplicationFileProvider, LocalFileProvider>();
+builder.Services.AddScoped<IApplicationFileProvider, AzureBlobFileProvider>();
 builder.Services.Configure<ConnectionInformation>(builder.Configuration.GetSection("ConnectionInformation"));
 
 builder.Services.AddControllers();

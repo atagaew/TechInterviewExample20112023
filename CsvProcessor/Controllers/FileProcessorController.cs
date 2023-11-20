@@ -28,8 +28,8 @@ public class FileProcessorController : ControllerBase
         }
         return Ok(process);
     }
-    [HttpPost()]
-    public Task<Guid> Process([FromBody] string fileName)
+    [HttpPost("{fileName}")]
+    public Task<Guid> Process(string fileName)
     {
         return _processorService.Process(fileName);
     }
